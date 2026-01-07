@@ -1,3 +1,5 @@
+/* usage demo */
+
 #include "window.h"
 #include <stdio.h>
 #include <unistd.h>
