@@ -8,4 +8,4 @@ To use, include window.h in your project and call WINDOW_WindowCreate to open a 
 
 On Linux, build with `cc main.c -o app -lX11`. On Windows (MinGW), use `gcc main.c -o app.exe -lgdi32 -luser32 -mwindows` to avoid opening a console window. On macOS, compile with `cc main.c -o app -framework` Cocoa. Linux requires X11 development headers such as libx11-dev.
 
-Currently, WINDOW_ supports window creation, resizing, and basic event polling. Future improvements may include keyboard and mouse input handling, callback support, and OpenGL/Vulkan integration. The library is licensed under the MIT License, allowing free use, modification, and distribution.
+Currently, WINDOW_ supports window creation, resizing, and basic event polling. Future improvements may include keyboard and mouse input handling, callback support, and OpenGL/Vulkan integration.
