@@ -1,6 +1,8 @@
 ### WINDOW_ – Single Header Cross-Platform Window Library
 
-WINDOW_ is a minimal C89 single header library for creating windows on Windows, Linux (X11), and macOS (Cocoa). It provides a simple API to create, poll, and destroy windows with a clean naming convention: WINDOW_ namespace, PascalCase functions, camelCase struct members, and p_ prefix for parameters.
+WINDOW_ is a minimal C89 single header library for creating windows on Windows, Linux (X11), and macOS (Cocoa). It provides a simple API to create, poll, and destroy windows.
+
+Naming convention: WINDOW_ namespace, PascalCase functions, camelCase struct members, and p_ prefix for parameters.
 
 To use, include window.h in your project and call WINDOW_WindowCreate to open a window. Use `WINDOW_WindowPoll` to process events, `WINDOW_WindowShouldClose` to check if the window should close, and `WINDOW_WindowDestroy` to clean up. The API is simple and minimal, making it suitable for small games, demos, or GUI experiments.
 
